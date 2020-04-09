@@ -3,7 +3,7 @@ import java.sql.*;
 import java.util.Scanner;
 import java.util.Date;
 
-public class ArticleInfo implements ArticleInfoModel {
+public class ArticleInfo {
 
     static DBConnecter db = new DBConnecter("okeefebl", "1908035");
 
@@ -392,26 +392,6 @@ public class ArticleInfo implements ArticleInfoModel {
                 System.out.println("Please type in a valid response:");
             }
         }
-    }
-
-    @Override
-    public String formatArticleAsHTML() {
-        return null;
-    }
-
-    @Override
-    public String formatHeadAsHTML() {
-        return null;
-    }
-
-    @Override
-    public String formatHeaderAsHTML() {
-        return null;
-    }
-
-    @Override
-    public String formatBodyAsHTML() {
-        return null;
     }
 }
 
