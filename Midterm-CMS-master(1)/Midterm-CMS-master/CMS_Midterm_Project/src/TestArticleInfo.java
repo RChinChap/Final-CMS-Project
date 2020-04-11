@@ -15,7 +15,7 @@ public class TestArticleInfo {
         articles.put(article.getID(), article);
     }
 
-    public ArrayList<ArticleInfo> ArticleInfo() {
+    public ArrayList<ArticleInfo> getArticles() {
         ArrayList articleList = new ArrayList<ArticleInfo>();
         for (Map.Entry<Integer, ArticleInfo> entry : this.articles.entrySet()) {
             articleList.add(entry.getValue());
